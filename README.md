@@ -6,9 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/WBPickerViewController.svg?style=flat)](https://cocoapods.org/pods/WBPickerViewController)
 
 ## 介绍
-<img width="200" height="433" alt="一列 PickerView 截图" src="https://github.com/Andy1994/WBPickerViewController/blob/master/Screenshot/IMG_0193.PNG"/>
-<img width="200" height="433" alt="两列 PickerView 截图" src="https://github.com/Andy1994/WBPickerViewController/blob/master/Screenshot/IMG_0194.PNG"/>
-<img width="200" height="433" alt="三列 PickerView 截图" src="https://github.com/Andy1994/WBPickerViewController/blob/master/Screenshot/IMG_0195.PNG"/>
+<img width="200" height="433" alt="一列 PickerView 截图" src="https://github.com/Andy1994/WBPickerViewController/blob/master/Screenshot/IMG_0193.PNG"/><img width="200" height="433" alt="两列 PickerView 截图" src="https://github.com/Andy1994/WBPickerViewController/blob/master/Screenshot/IMG_0194.PNG"/><img width="200" height="433" alt="三列 PickerView 截图" src="https://github.com/Andy1994/WBPickerViewController/blob/master/Screenshot/IMG_0195.PNG"/>
 
 ## Example
 
