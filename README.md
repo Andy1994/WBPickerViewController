@@ -5,6 +5,11 @@
 [![License](https://img.shields.io/cocoapods/l/WBPickerViewController.svg?style=flat)](https://cocoapods.org/pods/WBPickerViewController)
 [![Platform](https://img.shields.io/cocoapods/p/WBPickerViewController.svg?style=flat)](https://cocoapods.org/pods/WBPickerViewController)
 
+## 介绍
+![一列 PickerView 截图](https://github.com/Andy1994/WBPickerViewController/blob/master/Screenshot/IMG_0193.PNG)
+![两列 PickerView 截图](https://github.com/Andy1994/WBPickerViewController/blob/master/Screenshot/IMG_0194.PNG)
+![三列 PickerView 截图](https://github.com/Andy1994/WBPickerViewController/blob/master/Screenshot/IMG_0195.PNG)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
