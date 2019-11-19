@@ -1,9 +1,9 @@
 //
 //  Transition.swift
-//  tantan-x
+//  WBPickerViewController_Example
 //
 //  Created by wangwenbo on 2019/4/15.
-//  Copyright © 2019 Tantan. All rights reserved.
+//  Copyright © 2019 CocoaPods. All rights reserved.
 //
 
 import UIKit

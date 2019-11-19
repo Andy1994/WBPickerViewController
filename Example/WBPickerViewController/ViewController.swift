@@ -41,18 +41,18 @@ class ViewController: UIViewController {
     
     // 展示一列
     @objc func showOnePickerViewController() {
-        var keys = [String]()
+        var pickerDatas = [WBPickerData]()
         for number in 140 ... 210 {
-            keys.append("\(number)cm")
+            pickerDatas.append(WBPickerData(key: "\(number)cm"))
         }
         // 默认选中170，170 - 140 = 30
-        let vc = WBPickerViewController(identity: "height", pickerDatas: commonGeneratePickerData(keys), defaultSelectedArray: [30], delegate: self)
+        let vc = WBPickerViewController(identity: "height", pickerDatas: pickerDatas, defaultSelectedArray: [30], delegate: self)
         vc.presentFromViewController(self)
     }
     
     // 展示两列
     @objc func showTwoPickerViewController() {
-        // 默认省:天津，城市:天津
+        // 默认 省:天津，城市:天津
         let vc = WBPickerViewController(identity: "address two", pickerDatas: Helper.address()!, defaultSelectedArray: [1, 0], delegate: self)
         vc.presentFromViewController(self)
     }
@@ -62,29 +62,24 @@ class ViewController: UIViewController {
         var pickerDatas = [WBPickerData]()
         pickerDatas.append(WBPickerData(key: "有地址", values: Helper.address()!))
         pickerDatas.append(WBPickerData(key: "无地址", values: [WBPickerData(key: "", values: [WBPickerData(key: "")])]))
-        // 默认有地址 省:天津，城市:天津
-        let vc = WBPickerViewController(identity: "height three", pickerDatas: pickerDatas, defaultSelectedArray: [0, 1, 0], delegate: self)
+        // 默认 有地址 省:天津，城市:天津
+        let vc = WBPickerViewController()
+        vc.identity = "address three"
+        vc.pickerDatas = pickerDatas
+        vc.defaultSelectedArray = [0, 1, 0]
+        vc.delegate = self
         vc.presentFromViewController(self)
-    }
-    
-    func commonGeneratePickerData(_ keys: [String]) -> [WBPickerData] {
-        var results = [WBPickerData]()
-        for key in keys {
-            results.append(WBPickerData(key: key))
-        }
-        return results
     }
 }
 
 extension ViewController: WBPickerViewControllerDelegate {
     func pickerInputViewControllerDidChanged(_ identity: String?, pickerDatas: [WBPickerData]?) {
-        print("\(identity ?? "") \(pickerDatas ?? [])")
         if identity == "height" {
-            button1.setTitle("选中的身高为：\(pickerDatas?.first?.key ?? "nil")", for: .normal)
+            button1.setTitle("选中的身高为：\(pickerDatas?.first?.key ?? "")", for: .normal)
         } else if identity == "address two" {
-            button1.setTitle("2.选中的地址为：\(pickerDatas?.last?.key ?? "nil") id:\(pickerDatas?.last?.data ?? "nil")", for: .normal)
+            button2.setTitle("选中的地址为：\(pickerDatas?[safe: 0]?.key ?? "") \(pickerDatas?[safe: 1]?.key ?? "")", for: .normal)
         } else if identity == "address three" {
-            button1.setTitle("3.选中的地址为：\(pickerDatas?.last?.key ?? "nil") id:\(pickerDatas?.last?.data ?? "nil")", for: .normal)
+            button3.setTitle("选中的地址为：\(pickerDatas?[safe: 0]?.key ?? "") \(pickerDatas?[safe: 1]?.key ?? "") \(pickerDatas?[safe: 2]?.key ?? "")", for: .normal)
         }
     }
 }

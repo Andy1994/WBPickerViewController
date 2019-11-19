@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WBPickerViewController: 152452f428e155a769be230fde0f621f779eea8d
+  WBPickerViewController: 2129f5727ac6cf8ce2311d028e6f3bdee7b642de
 
 PODFILE CHECKSUM: c11058feec049cc906096b2bdaddd4baaaf958e4
 

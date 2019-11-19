@@ -9,16 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = 'WBPickerViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WBPickerViewController.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.summary          = 'Convenient using PickerView. Custom display column by given data.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Convenient using pickerView. Custom display column by given data. You can simple create 1~3 column pickerView.
                        DESC
 
   s.homepage         = 'https://github.com/Andy1994/WBPickerViewController'
@@ -26,17 +20,9 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Andy1994' => 'wangwenbomx@gmail.com' }
   s.source           = { :git => 'https://github.com/Andy1994/WBPickerViewController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'WBPickerViewController/*.swift'
   
-  # s.resource_bundles = {
-  #   'WBPickerViewController' => ['WBPickerViewController/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		05424104BA5AFCBB0C7654531A6861B2 /* WBPickerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBD892AAB1AC111DEE65B3912FE8857 /* WBPickerViewController-dummy.m */; };
+		10633959A066181314B7BB467D5AEC74 /* WBPickerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BC123D1B7FA9C856D312429F4580C0B /* WBPickerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10F1A8A077FFF2B3BAADAEFE46617A06 /* AlertTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3FDAAFFBBE2920644879B22B5C1748 /* AlertTransitionAnimation.swift */; };
+		171926FD9D22C8D0AD58F0152AA51A51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		1C20BCA210351453C5FFD444A415596D /* Pods-WBPickerViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B3CFF02B7CB35605555C7679EBA9448 /* Pods-WBPickerViewController_Example-dummy.m */; };
 		4B85535AE542DAC5CF450181E3E183EE /* Pods-WBPickerViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 794DDA75E6FDF480DFC2264D1B62208D /* Pods-WBPickerViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D2A60BDCF28233DFAB29F52086934CB /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 790A7E4BB8BD251FA4CBA7B1688BDD18 /* Transition.swift */; };
 		4EF457708D80DF32B72FD6514ABA98B7 /* Pods-WBPickerViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B7FA077038E35BAA6F1930CFB055A /* Pods-WBPickerViewController_Tests-dummy.m */; };
-		9B0A799730C15012201CBA4BACAD8B9F /* WBPickerViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCECFCE00E4E804AE8EBBBFB529B26A3 /* WBPickerViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B86209749A8EB4C6BAB934FEA1D22808 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		51267A6107BB864AEAA6930945FFF890 /* WBPickerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433B2411E422E7CE45D5E9D2273DCD7E /* WBPickerData.swift */; };
+		A927FC9250CB22C049EB4538642E4E49 /* WBPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 251544D98EB0ED96A44A5A1C9705B5D7 /* WBPickerViewController.swift */; };
+		ABB1D66E73E8DF3CA8CB5D8D0C662B3B /* WBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D59E3E56478EE69E80184E15DA62D1 /* WBHelper.swift */; };
+		ADC476598B281DB8FFA276AEFAFAA91E /* WBPickerViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F629D77B9472982F97C04B4AE62CA5C /* WBPickerViewController-dummy.m */; };
 		BAD8EA045B232079402535796FDFD22C /* Pods-WBPickerViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D97D1E7022E193204A1AA905B6BBAF0 /* Pods-WBPickerViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE3C73DE8D8C005A1F740229AA645464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C253495204B3DA0CBA1E5AF71F92B4C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F3934F9289E3D49BFFABC7A7C6A5A4FA /* WBPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAEBC5F08FB6BB097A30EE7C72222CD /* WBPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,45 +42,51 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E508C4639C530029C8B44C8B1675880 /* WBPickerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBPickerViewController.xcconfig; sourceTree = "<group>"; };
+		0E5024211F852D84D295EEC7DA5A076D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1E2B7FA077038E35BAA6F1930CFB055A /* Pods-WBPickerViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBPickerViewController_Tests-dummy.m"; sourceTree = "<group>"; };
-		24EB04178727BA23D824B2B2F349C356 /* WBPickerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WBPickerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3FDAAFFBBE2920644879B22B5C1748 /* AlertTransitionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertTransitionAnimation.swift; path = WBPickerViewController/AlertTransitionAnimation.swift; sourceTree = "<group>"; };
+		1F629D77B9472982F97C04B4AE62CA5C /* WBPickerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBPickerViewController-dummy.m"; sourceTree = "<group>"; };
+		24EB04178727BA23D824B2B2F349C356 /* WBPickerViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WBPickerViewController.framework; path = WBPickerViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		251544D98EB0ED96A44A5A1C9705B5D7 /* WBPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WBPickerViewController.swift; path = WBPickerViewController/WBPickerViewController.swift; sourceTree = "<group>"; };
 		271AE4D1F68958FD5F647FFDF86E648A /* Pods-WBPickerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBPickerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		30FAE9B63C38166AEAFA4806D0390510 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		40452EAEE51E4EC489C4C125BF1575DD /* Pods-WBPickerViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBPickerViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		433B2411E422E7CE45D5E9D2273DCD7E /* WBPickerData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WBPickerData.swift; path = WBPickerViewController/WBPickerData.swift; sourceTree = "<group>"; };
 		4A35EC776012722B201E1B5D63A99DDA /* Pods-WBPickerViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBPickerViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51E75AFBFBA8746432F46B492A1AE0F2 /* WBPickerViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WBPickerViewController.xcconfig; sourceTree = "<group>"; };
 		5B3CFF02B7CB35605555C7679EBA9448 /* Pods-WBPickerViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WBPickerViewController_Example-dummy.m"; sourceTree = "<group>"; };
-		71BF2942A89FC0C9AD9B86A7FBC4B7B8 /* Pods_WBPickerViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBPickerViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BBD9AE31F5EBDD9B7B361433A9B7C78 /* WBPickerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBPickerViewController.modulemap; sourceTree = "<group>"; };
+		71BF2942A89FC0C9AD9B86A7FBC4B7B8 /* Pods_WBPickerViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBPickerViewController_Tests.framework; path = "Pods-WBPickerViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790A7E4BB8BD251FA4CBA7B1688BDD18 /* Transition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transition.swift; path = WBPickerViewController/Transition.swift; sourceTree = "<group>"; };
 		794DDA75E6FDF480DFC2264D1B62208D /* Pods-WBPickerViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBPickerViewController_Example-umbrella.h"; sourceTree = "<group>"; };
 		7D97D1E7022E193204A1AA905B6BBAF0 /* Pods-WBPickerViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WBPickerViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
-		80D1E44240A292DCDF0AFBE022C48509 /* WBPickerViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WBPickerViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8A0632C0ADE2D48D751CA2590DB74BAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		91AB8D47D6CD2F9F2D51BA61B75A0EA1 /* WBPickerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBPickerViewController-prefix.pch"; sourceTree = "<group>"; };
 		967E17A9C1FFA1201A9824184AF25A88 /* Pods-WBPickerViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBPickerViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		99066FA2A034029DFB41138DE641D392 /* Pods-WBPickerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WBPickerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BC123D1B7FA9C856D312429F4580C0B /* WBPickerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBPickerViewController-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1D261D1C89C70E4482C9949DA934DE1 /* Pods-WBPickerViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBPickerViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		A597A0F44844A8D166C25C1E6BCC7449 /* WBPickerViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WBPickerViewController-Info.plist"; sourceTree = "<group>"; };
 		A8EF30F10B0C3331A9E553E327FC202C /* Pods-WBPickerViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WBPickerViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B4997C5C6A261063FC6A44DE62DF0675 /* WBPickerViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBPickerViewController-prefix.pch"; sourceTree = "<group>"; };
+		B3223DA6D2E4DE001878558A0BD4B961 /* WBPickerViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WBPickerViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B6D9F3B31C178CB913CE45F2E940F85E /* Pods-WBPickerViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBPickerViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B8AF1459EEE4D006766E68833A78FE42 /* WBPickerViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WBPickerViewController.modulemap; sourceTree = "<group>"; };
 		BD7205A54C3A529CBDF781103DAAE8E9 /* Pods-WBPickerViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBPickerViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		C8D59E3E56478EE69E80184E15DA62D1 /* WBHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WBHelper.swift; path = WBPickerViewController/WBHelper.swift; sourceTree = "<group>"; };
 		D41E2AC6906E6FC9D94B2CF453CB55AE /* Pods-WBPickerViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBPickerViewController_Tests-Info.plist"; sourceTree = "<group>"; };
-		D56B901F30694530D4C0B006BC2E591F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E2783BD5E9B29D31A1424D51442BA93C /* Pods_WBPickerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBPickerViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E642CCE679AEB69E9F45166FE62DE9E4 /* WBPickerViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WBPickerViewController-Info.plist"; sourceTree = "<group>"; };
+		E2783BD5E9B29D31A1424D51442BA93C /* Pods_WBPickerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WBPickerViewController_Example.framework; path = "Pods-WBPickerViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED86BEF66C67F6B8FB60823DA6A6344C /* Pods-WBPickerViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WBPickerViewController_Example.modulemap"; sourceTree = "<group>"; };
+		EEAEBC5F08FB6BB097A30EE7C72222CD /* WBPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WBPickerView.swift; path = WBPickerViewController/WBPickerView.swift; sourceTree = "<group>"; };
 		F37853B610D78D19E96A1171118C81E2 /* Pods-WBPickerViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WBPickerViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FA7D25BAAF8FDD902DA668B06FDF2E4F /* Pods-WBPickerViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WBPickerViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FCECFCE00E4E804AE8EBBBFB529B26A3 /* WBPickerViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WBPickerViewController-umbrella.h"; sourceTree = "<group>"; };
-		FEBD892AAB1AC111DEE65B3912FE8857 /* WBPickerViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WBPickerViewController-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		748922F7FCA68BC8ECAE52A2FFE54D42 /* Frameworks */ = {
+		39B5D245549BE446CBD68F7E453F93BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B86209749A8EB4C6BAB934FEA1D22808 /* Foundation.framework in Frameworks */,
+				171926FD9D22C8D0AD58F0152AA51A51 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,24 +109,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AA2BB0834D43548ACA807709624B31B /* WBPickerViewController */ = {
+		107A46504663E38B39F56EE72373BD66 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8AF72C9F23E36A191126421B1B9F84C7 /* Pod */,
-				E8425D6BD53C494111B3683CF6670CF8 /* Support Files */,
+				8A0632C0ADE2D48D751CA2590DB74BAB /* LICENSE */,
+				0E5024211F852D84D295EEC7DA5A076D /* README.md */,
+				B3223DA6D2E4DE001878558A0BD4B961 /* WBPickerViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		194AC33791023FE85254E222A0EA9C56 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B001BE53801D308E64F05323D1E52E5 /* WBPickerViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		931495E6BCB3CCDEC3933BF7E2D22AC5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BBD9AE31F5EBDD9B7B361433A9B7C78 /* WBPickerViewController.modulemap */,
+				51E75AFBFBA8746432F46B492A1AE0F2 /* WBPickerViewController.xcconfig */,
+				1F629D77B9472982F97C04B4AE62CA5C /* WBPickerViewController-dummy.m */,
+				A597A0F44844A8D166C25C1E6BCC7449 /* WBPickerViewController-Info.plist */,
+				91AB8D47D6CD2F9F2D51BA61B75A0EA1 /* WBPickerViewController-prefix.pch */,
+				9BC123D1B7FA9C856D312429F4580C0B /* WBPickerViewController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WBPickerViewController";
+			sourceTree = "<group>";
+		};
+		9B001BE53801D308E64F05323D1E52E5 /* WBPickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E3FDAAFFBBE2920644879B22B5C1748 /* AlertTransitionAnimation.swift */,
+				790A7E4BB8BD251FA4CBA7B1688BDD18 /* Transition.swift */,
+				C8D59E3E56478EE69E80184E15DA62D1 /* WBHelper.swift */,
+				433B2411E422E7CE45D5E9D2273DCD7E /* WBPickerData.swift */,
+				EEAEBC5F08FB6BB097A30EE7C72222CD /* WBPickerView.swift */,
+				251544D98EB0ED96A44A5A1C9705B5D7 /* WBPickerViewController.swift */,
+				107A46504663E38B39F56EE72373BD66 /* Pod */,
+				931495E6BCB3CCDEC3933BF7E2D22AC5 /* Support Files */,
 			);
 			name = WBPickerViewController;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		8AF72C9F23E36A191126421B1B9F84C7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				30FAE9B63C38166AEAFA4806D0390510 /* LICENSE */,
-				D56B901F30694530D4C0B006BC2E591F /* README.md */,
-				80D1E44240A292DCDF0AFBE022C48509 /* WBPickerViewController.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		BB3E42D99ABC09C90D68AB3D53186A5A /* Pods-WBPickerViewController_Example */ = {
@@ -155,7 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				DD74093E0AD8726D1F997BD3C857A7D0 /* Development Pods */,
+				194AC33791023FE85254E222A0EA9C56 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				FA2E25CF123CB71D5C7BDC2328D77828 /* Products */,
 				BC6DC55FFEFC9240995D43D78F77D760 /* Targets Support Files */,
@@ -186,28 +226,6 @@
 			path = "Target Support Files/Pods-WBPickerViewController_Tests";
 			sourceTree = "<group>";
 		};
-		DD74093E0AD8726D1F997BD3C857A7D0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0AA2BB0834D43548ACA807709624B31B /* WBPickerViewController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E8425D6BD53C494111B3683CF6670CF8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8AF1459EEE4D006766E68833A78FE42 /* WBPickerViewController.modulemap */,
-				0E508C4639C530029C8B44C8B1675880 /* WBPickerViewController.xcconfig */,
-				FEBD892AAB1AC111DEE65B3912FE8857 /* WBPickerViewController-dummy.m */,
-				E642CCE679AEB69E9F45166FE62DE9E4 /* WBPickerViewController-Info.plist */,
-				B4997C5C6A261063FC6A44DE62DF0675 /* WBPickerViewController-prefix.pch */,
-				FCECFCE00E4E804AE8EBBBFB529B26A3 /* WBPickerViewController-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WBPickerViewController";
-			sourceTree = "<group>";
-		};
 		FA2E25CF123CB71D5C7BDC2328D77828 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -229,14 +247,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3EE105BB3CF52665C99D6C6979BBA7C8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B0A799730C15012201CBA4BACAD8B9F /* WBPickerViewController-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		524FB42ADD3DEFAD3A921E1D06448ED1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,17 +255,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B58A0B5F4B85C2DD0218C7C9E7594BC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10633959A066181314B7BB467D5AEC74 /* WBPickerViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DBCC6ADAECFD0758FB253F7CC205BB75 /* WBPickerViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31E79A2A0A5B9BCA16A32243390EC18E /* Build configuration list for PBXNativeTarget "WBPickerViewController" */;
+			buildConfigurationList = 6B33A416744E4FDDC952D9585B18E758 /* Build configuration list for PBXNativeTarget "WBPickerViewController" */;
 			buildPhases = (
-				3EE105BB3CF52665C99D6C6979BBA7C8 /* Headers */,
-				00B0D7B52AD005BB2D5EAC91226D7905 /* Sources */,
-				748922F7FCA68BC8ECAE52A2FFE54D42 /* Frameworks */,
-				E7B8F5C8B2CF376D486552A349C0E1CB /* Resources */,
+				B58A0B5F4B85C2DD0218C7C9E7594BC9 /* Headers */,
+				E496DB0938FDBFE5A46C6A65EA742209 /* Sources */,
+				39B5D245549BE446CBD68F7E453F93BF /* Frameworks */,
+				787AD1D2A988112251981D65175F99EB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -347,7 +365,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E7B8F5C8B2CF376D486552A349C0E1CB /* Resources */ = {
+		787AD1D2A988112251981D65175F99EB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -357,14 +375,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00B0D7B52AD005BB2D5EAC91226D7905 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05424104BA5AFCBB0C7654531A6861B2 /* WBPickerViewController-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A6C821B4E4022E6A1052550EC1B289BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,6 +388,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EF457708D80DF32B72FD6514ABA98B7 /* Pods-WBPickerViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E496DB0938FDBFE5A46C6A65EA742209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10F1A8A077FFF2B3BAADAEFE46617A06 /* AlertTransitionAnimation.swift in Sources */,
+				4D2A60BDCF28233DFAB29F52086934CB /* Transition.swift in Sources */,
+				ABB1D66E73E8DF3CA8CB5D8D0C662B3B /* WBHelper.swift in Sources */,
+				51267A6107BB864AEAA6930945FFF890 /* WBPickerData.swift in Sources */,
+				F3934F9289E3D49BFFABC7A7C6A5A4FA /* WBPickerView.swift in Sources */,
+				ADC476598B281DB8FFA276AEFAFAA91E /* WBPickerViewController-dummy.m in Sources */,
+				A927FC9250CB22C049EB4538642E4E49 /* WBPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,230 +423,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		21074F246CCF12E8F7271F8E57E2FE44 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 967E17A9C1FFA1201A9824184AF25A88 /* Pods-WBPickerViewController_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		24E1CEFD0C81C2EC54A1495F938E76F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E508C4639C530029C8B44C8B1675880 /* WBPickerViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WBPickerViewController/WBPickerViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WBPickerViewController/WBPickerViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WBPickerViewController/WBPickerViewController.modulemap";
-				PRODUCT_MODULE_NAME = WBPickerViewController;
-				PRODUCT_NAME = WBPickerViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		725E17D9940233E7A4989BE2414252AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99066FA2A034029DFB41138DE641D392 /* Pods-WBPickerViewController_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WBPickerViewController_Example/Pods-WBPickerViewController_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WBPickerViewController_Example/Pods-WBPickerViewController_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7AC71B51196F3F16C76ED43BE022C94E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E508C4639C530029C8B44C8B1675880 /* WBPickerViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WBPickerViewController/WBPickerViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WBPickerViewController/WBPickerViewController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WBPickerViewController/WBPickerViewController.modulemap";
-				PRODUCT_MODULE_NAME = WBPickerViewController;
-				PRODUCT_NAME = WBPickerViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9BC1A2533CDE5271FD2F02244A067290 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40452EAEE51E4EC489C4C125BF1575DD /* Pods-WBPickerViewController_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -673,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -686,11 +487,46 @@
 			};
 			name = Debug;
 		};
-		F0E45F10242576543C2C0E8D4240DE3C /* Debug */ = {
+		2532DEE0D74A8BC68147FE3BC8D48520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40452EAEE51E4EC489C4C125BF1575DD /* Pods-WBPickerViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D6A471E07358AB935521434EA7A2706 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 271AE4D1F68958FD5F647FFDF86E648A /* Pods-WBPickerViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -702,7 +538,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-WBPickerViewController_Example/Pods-WBPickerViewController_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-WBPickerViewController_Example/Pods-WBPickerViewController_Example.modulemap";
@@ -719,23 +555,209 @@
 			};
 			name = Debug;
 		};
+		75AB1BA159F94F70CF5630D045AF1154 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99066FA2A034029DFB41138DE641D392 /* Pods-WBPickerViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBPickerViewController_Example/Pods-WBPickerViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBPickerViewController_Example/Pods-WBPickerViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B05B16CA9B2630E9CA632745D49998B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E75AFBFBA8746432F46B492A1AE0F2 /* WBPickerViewController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBPickerViewController/WBPickerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBPickerViewController/WBPickerViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBPickerViewController/WBPickerViewController.modulemap";
+				PRODUCT_MODULE_NAME = WBPickerViewController;
+				PRODUCT_NAME = WBPickerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DEC735C86A246665D068F260BB4E7996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967E17A9C1FFA1201A9824184AF25A88 /* Pods-WBPickerViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F128DB98A90968539F6C678695EFE9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E75AFBFBA8746432F46B492A1AE0F2 /* WBPickerViewController.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WBPickerViewController/WBPickerViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WBPickerViewController/WBPickerViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WBPickerViewController/WBPickerViewController.modulemap";
+				PRODUCT_MODULE_NAME = WBPickerViewController;
+				PRODUCT_NAME = WBPickerViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		14A06A55EED35E93D1A3A7F645D427C3 /* Build configuration list for PBXNativeTarget "Pods-WBPickerViewController_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F0E45F10242576543C2C0E8D4240DE3C /* Debug */,
-				725E17D9940233E7A4989BE2414252AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		31E79A2A0A5B9BCA16A32243390EC18E /* Build configuration list for PBXNativeTarget "WBPickerViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				24E1CEFD0C81C2EC54A1495F938E76F4 /* Debug */,
-				7AC71B51196F3F16C76ED43BE022C94E /* Release */,
+				6D6A471E07358AB935521434EA7A2706 /* Debug */,
+				75AB1BA159F94F70CF5630D045AF1154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -743,8 +765,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B33A416744E4FDDC952D9585B18E758 /* Build configuration list for PBXNativeTarget "WBPickerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F128DB98A90968539F6C678695EFE9CD /* Debug */,
+				8B05B16CA9B2630E9CA632745D49998B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -752,8 +783,8 @@
 		A01FF8CA31B01E54CBE392033C2020D0 /* Build configuration list for PBXNativeTarget "Pods-WBPickerViewController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9BC1A2533CDE5271FD2F02244A067290 /* Debug */,
-				21074F246CCF12E8F7271F8E57E2FE44 /* Release */,
+				2532DEE0D74A8BC68147FE3BC8D48520 /* Debug */,
+				DEC735C86A246665D068F260BB4E7996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
