@@ -1,0 +1,22 @@
+{
+  "name": "WBPickerViewController",
+  "version": "0.1.0",
+  "summary": "A short description of WBPickerViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Andy1994/WBPickerViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andy1994": "wangwenbomx@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Andy1994/WBPickerViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WBPickerViewController/Classes/**/*"
+}

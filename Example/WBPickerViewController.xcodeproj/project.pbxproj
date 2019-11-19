@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D1B8FE72383CB56008F674A /* WBPickerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B8FE62383CB56008F674A /* WBPickerData.swift */; };
+		0D1B8FE92383CE47008F674A /* WBPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B8FE82383CE47008F674A /* WBPickerView.swift */; };
+		0D1B8FEB2383D0A2008F674A /* WBPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B8FEA2383D0A2008F674A /* WBPickerViewController.swift */; };
+		0D1B8FED2383D245008F674A /* WBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B8FEC2383D245008F674A /* WBHelper.swift */; };
+		0D1B8FF22383D7B9008F674A /* AlertTransitionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B8FEF2383D7B9008F674A /* AlertTransitionAnimation.swift */; };
+		0D1B8FF32383D7B9008F674A /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B8FF02383D7B9008F674A /* Transition.swift */; };
+		0D1B8FF62383DF53008F674A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B8FF52383DF52008F674A /* Helper.swift */; };
+		0D1B8FF82383E059008F674A /* address.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D1B8FF72383E059008F674A /* address.json */; };
 		3A3E6D635FB37300FA672F15 /* Pods_WBPickerViewController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 153D2A2443CBADC66BDD83CA /* Pods_WBPickerViewController_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,11 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10376531459E9A1D5631A70A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0D1B8FE62383CB56008F674A /* WBPickerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WBPickerData.swift; path = ../WBPickerViewController/WBPickerData.swift; sourceTree = "<group>"; };
+		0D1B8FE82383CE47008F674A /* WBPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WBPickerView.swift; path = ../WBPickerViewController/WBPickerView.swift; sourceTree = "<group>"; };
+		0D1B8FEA2383D0A2008F674A /* WBPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WBPickerViewController.swift; path = ../WBPickerViewController/WBPickerViewController.swift; sourceTree = "<group>"; };
+		0D1B8FEC2383D245008F674A /* WBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WBHelper.swift; path = ../WBPickerViewController/WBHelper.swift; sourceTree = "<group>"; };
+		0D1B8FEF2383D7B9008F674A /* AlertTransitionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTransitionAnimation.swift; sourceTree = "<group>"; };
+		0D1B8FF02383D7B9008F674A /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		0D1B8FF52383DF52008F674A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		0D1B8FF72383E059008F674A /* address.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = address.json; sourceTree = "<group>"; };
+		10376531459E9A1D5631A70A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		12EDCF6070D6831F8DCFBA1C /* Pods-WBPickerViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBPickerViewController_Example.debug.xcconfig"; path = "Target Support Files/Pods-WBPickerViewController_Example/Pods-WBPickerViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		153D2A2443CBADC66BDD83CA /* Pods_WBPickerViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBPickerViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		502E5FE5ECED5494E14F4CA2 /* Pods-WBPickerViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBPickerViewController_Tests.release.xcconfig"; path = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5781D8C04BD0172880D62213 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5781D8C04BD0172880D62213 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WBPickerViewController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBPickerViewController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,7 +59,7 @@
 		607FACE51AFB9204008FA782 /* WBPickerViewController_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBPickerViewController_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		64CF6AB3DBF33AA4D070A2F8 /* WBPickerViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WBPickerViewController.podspec; path = ../WBPickerViewController.podspec; sourceTree = "<group>"; };
+		64CF6AB3DBF33AA4D070A2F8 /* WBPickerViewController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WBPickerViewController.podspec; path = ../WBPickerViewController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD0CB96A482449F3A1CCF416 /* Pods-WBPickerViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBPickerViewController_Example.release.xcconfig"; path = "Target Support Files/Pods-WBPickerViewController_Example/Pods-WBPickerViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD485D639C022F16899EC400 /* Pods-WBPickerViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBPickerViewController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WBPickerViewController_Tests/Pods-WBPickerViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FA48C8766479DB2DBD75DC20 /* Pods_WBPickerViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBPickerViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +85,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D1B8FEE2383D7B9008F674A /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				0D1B8FF02383D7B9008F674A /* Transition.swift */,
+				0D1B8FEF2383D7B9008F674A /* AlertTransitionAnimation.swift */,
+			);
+			name = Transition;
+			path = ../WBPickerViewController/Transition;
+			sourceTree = "<group>";
+		};
 		1725993CCB87CCE137DD6E22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +103,6 @@
 				BD485D639C022F16899EC400 /* Pods-WBPickerViewController_Tests.debug.xcconfig */,
 				502E5FE5ECED5494E14F4CA2 /* Pods-WBPickerViewController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -116,6 +141,8 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				0D1B8FF52383DF52008F674A /* Helper.swift */,
+				0D1B8FF72383E059008F674A /* address.json */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -153,6 +180,11 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				0D1B8FEE2383D7B9008F674A /* Transition */,
+				0D1B8FE62383CB56008F674A /* WBPickerData.swift */,
+				0D1B8FE82383CE47008F674A /* WBPickerView.swift */,
+				0D1B8FEA2383D0A2008F674A /* WBPickerViewController.swift */,
+				0D1B8FEC2383D245008F674A /* WBHelper.swift */,
 				64CF6AB3DBF33AA4D070A2F8 /* WBPickerViewController.podspec */,
 				10376531459E9A1D5631A70A /* README.md */,
 				5781D8C04BD0172880D62213 /* LICENSE */,
@@ -213,6 +245,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TG4J37B2H7;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
@@ -227,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +282,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				0D1B8FF82383E059008F674A /* address.json in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +366,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D1B8FF22383D7B9008F674A /* AlertTransitionAnimation.swift in Sources */,
+				0D1B8FE72383CB56008F674A /* WBPickerData.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				0D1B8FEB2383D0A2008F674A /* WBPickerViewController.swift in Sources */,
+				0D1B8FF62383DF53008F674A /* Helper.swift in Sources */,
+				0D1B8FED2383D245008F674A /* WBHelper.swift in Sources */,
+				0D1B8FF32383D7B9008F674A /* Transition.swift in Sources */,
+				0D1B8FE92383CE47008F674A /* WBPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,10 +520,11 @@
 			baseConfigurationReference = 12EDCF6070D6831F8DCFBA1C /* Pods-WBPickerViewController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TG4J37B2H7;
 				INFOPLIST_FILE = WBPickerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.double.WBPickerViewController-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -493,10 +536,11 @@
 			baseConfigurationReference = AD0CB96A482449F3A1CCF416 /* Pods-WBPickerViewController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TG4J37B2H7;
 				INFOPLIST_FILE = WBPickerViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.double.WBPickerViewController-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;

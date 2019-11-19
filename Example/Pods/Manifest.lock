@@ -1,0 +1,16 @@
+PODS:
+  - WBPickerViewController (0.1.0)
+
+DEPENDENCIES:
+  - WBPickerViewController (from `../`)
+
+EXTERNAL SOURCES:
+  WBPickerViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WBPickerViewController: 152452f428e155a769be230fde0f621f779eea8d
+
+PODFILE CHECKSUM: c11058feec049cc906096b2bdaddd4baaaf958e4
+
+COCOAPODS: 1.8.4

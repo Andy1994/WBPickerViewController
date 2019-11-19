@@ -1,0 +1,6 @@
+framework module WBPickerViewController {
+  umbrella header "WBPickerViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}
