@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WBPickerViewController_Example' do
+  pod 'WBPickerViewController', :path => '../'
+
+  target 'WBPickerViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
